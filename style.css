@@ -76,7 +76,7 @@
     background-size: cover;
     display: flex;
     max-width: 100vw;
-    min-height: 90vh;
+    height: 100vh;
     margin-top: 78px;
 }
 .color-overlay{
@@ -269,7 +269,7 @@ footer i{
         padding-right: 50px;
     }
     .home{
-        height: 70vh;
+        height: 80vh;
     }
     .one{
         width: 100%;
