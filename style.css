@@ -1,6 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,300&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
-
 
 *{
     margin: 0;
@@ -28,8 +26,6 @@
     padding-left: 80px;
     margin: 0px 5px 0 5px;
     float: left;
-    
-    /*position: fixed;*/
 }
 .logo p{
     padding-left: 15px;
@@ -53,12 +49,9 @@
     float: left;
     text-align: right;
     margin-top: 15px;
-    /*position: fixed;
-    right: 10px;*/
 }
 .list ul{
     list-style-type: none;
-    
 }
 .list ul li{
     display: inline-block;
@@ -73,7 +66,6 @@
     color: red;
     cursor: pointer;
 }
-
 .home{
     background-image: url(./images/IMG_35.PNG);
     background-position: center;
@@ -86,7 +78,6 @@
 }
 .color-overlay{
     background: rgba(80, 71, 71,0.8);
-
 }
 .one{
     color: #fff;
@@ -114,7 +105,6 @@ button{
     font-size: 17px;
     border-radius: 10px;
 }
-
 .popular span, .gallery span, .review span, .connect span{
     color: red;
 }
@@ -127,8 +117,6 @@ button{
     display: flex;
     margin: 30px 10px 0 10px;
     margin-top: 30px;
-    /*border: 1px solid rgb(241, 134, 134);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 .popular-card-wrapper img{
     width: 286px;
@@ -255,11 +243,9 @@ footer i{
         font-weight: bold;
         font-size: 20px;
     }
-    
     .list ul{
-        width: 25%;
-        /*height: 96px;*/
-        background: #fff;
+        width: 35%;
+        text-align: center;
         position: absolute;
         top: 63px;
         right: 0;
@@ -268,9 +254,11 @@ footer i{
     }
     .list ul li{
         display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        border: 2px solid red;
+        border-radius: 6px;
     }
     .navbar i {
         display: block;
@@ -321,5 +309,4 @@ footer i{
         height: 35px;
         width: 45px;
     }
-    
 }
