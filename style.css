@@ -276,7 +276,8 @@ footer i{
         font-size: 23px;
     }
     .popul{
-        overflow: scroll;
+        overflow-x: scroll;
+        overflow-y: hidden;
         height: 395px;
         width: 399px;
         margin-bottom: 10px;
